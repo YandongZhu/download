@@ -39,6 +39,7 @@ def update(charpter):
 
 def main():
 	global download
+	print 'name: konan' 
 	#open the target page
 	html = urllib2.urlopen(url).read();
 
